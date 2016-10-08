@@ -28,10 +28,9 @@ var Japan = new Country("Japan", "Asia", "Tokyo", 126);
 var Italy = new Country("Italy", "Europe", "Rome", 60);
 
 document.body.innerHTML = Poland.DisplayInfo();
-document.body.innerHTML += "<br/>";
+document.body.innerHTML += "<br/><br/>";
 document.body.innerHTML += USA.DisplayInfo();
-document.body.innerHTML += "<br/>";
-document.body.innerHTML += "<br/>";
+document.body.innerHTML += "<br/><br/>";
 document.body.innerHTML += USA.ComparePopulation(Japan);
-document.body.innerHTML += "<br/>";
+document.body.innerHTML += "<br/><br/>";
 document.body.innerHTML += Poland.ComparePopulation(Italy);
